@@ -96,15 +96,15 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.40.25:9980/mithuntechnologies/repository/canarabank-releases/
+	      <name>Suresh Tech Releases Nexus Repository</name>
+	      <url>http://13.233.138.182:9988/sureshtech/repository/sureshtech-releases/
 </url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.40.25:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <name>Suresh Tech Snapshot Nexus Repository</name>
+	      <url>http://13.233.138.182:9988/sureshtech/repository/sureshtech-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

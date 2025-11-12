@@ -97,14 +97,14 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Suresh Tech Releases Nexus Repository</name>
-	      <url>http://13.233.138.182:9988/sureshtech/repository/sureshtech-releases/
+	      <url>http://13.235.99.217:9988/sureshtech/repository/sureshtech-releases/
 </url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Suresh Tech Snapshot Nexus Repository</name>
-	      <url>http://13.233.138.182:9988/sureshtech/repository/sureshtech-snapshot/</url>
+	      <url>http://13.235.99.217:9988/sureshtech/repository/sureshtech-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.109.139.103:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.40.181:9000/</sonar.host.url>
 		<sonar.login>squ_e972004542d8435bd2ce7591e58f2767cd52f0e8</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -97,14 +97,14 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Suresh Tech Releases Nexus Repository</name>
-	      <url>http://43.205.111.151:9988/sureshtech/repository/sureshtech-releases/
+	      <url>http://172.31.37.98:9988/sureshtech/repository/sureshtech-releases/
 </url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Suresh Tech Snapshot Nexus Repository</name>
-	      <url>http://43.205.111.151:9988/sureshtech/repository/sureshtech-snapshot/</url>
+	      <url>http://172.31.37.98:9988/sureshtech/repository/sureshtech-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

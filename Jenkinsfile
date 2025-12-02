@@ -1,6 +1,6 @@
 node(){
     def mavenHome = tool name: 'maven3.9.11'
-    properties([[$class: 'RebuildSettings', autoRebuild: false, rebuildDisabled: false], pipelineTriggers([pollSCM('* * * * *')])])
+    //properties([[$class: 'RebuildSettings', autoRebuild: false, rebuildDisabled: false], pipelineTriggers([pollSCM('* * * * *')])])
     stage('CheckoutCode'){
         git branch: 'development', url: 'https://github.com/Suresh-DevOps-Learning/maven-web-application.git'
     }
